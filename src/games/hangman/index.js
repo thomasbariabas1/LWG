@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './hangman.css'
 import styled from 'styled-components';
 import Digits from './components/Digits';
 import Title from './components/Title';
@@ -7,6 +7,7 @@ import Diagram from './components/Diagram';
 import GameOver from './components/GameOver';
 import NewGame from './components/NewGame';
 import fetchMovies from './fetchMovies';
+import GameWrapperHoc from "../../lib/HoCs/GameWrapperHoc";
 
 const Name = styled.h1`
   font-size: 56px;
@@ -227,4 +228,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default GameWrapperHoc()(App);

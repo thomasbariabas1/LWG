@@ -1,4 +1,5 @@
 import React from "react";
+
 // nodejs library that concatenates classes
 import classNames from "classnames";
 // @material-ui/core components
@@ -15,71 +16,59 @@ import Button from "components/CustomButtons/Button.jsx";
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 
-import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.jsx";
+import landingPageStyle from "../../assets/jss/material-kit-react/views/landingPage.jsx";
+import Games from '../../games'
+import GameCard from 'components/GameCards'
 
-// Sections for this page
-import Hangman from '../../games/hangman'
-
-const dashboardRoutes = [];
+let dashboardRoutes =[]
 
 class LandingPage extends React.Component {
     constructor(props) {
         super(props)
-        this.myRef = React.createRef();
     }
-    scrollToMyRef = () => {
-        window.scrollTo({
-            top:this.myRef.current.offsetTop,
-            behavior: "smooth"
-        })
-    }
+
   render() {
-    const { classes, ...rest } = this.props;
-    return (
-      <div>
-        <Header
-          color="transparent"
-          routes={dashboardRoutes}
-          brand="Learn With Games"
-          rightLinks={<HeaderLinks />}
-          fixed
-          changeColorOnScroll={{
-            height: 400,
-            color: "white"
-          }}
-          {...rest}
-        />
-        <Parallax filter image={require("assets/img/landing-bg.jpg")}>
-          <div className={classes.container}>
-            <GridContainer>
-              <GridItem xs={12} sm={12} md={6}>
-                <h1 className={classes.title}>Hangman</h1>
-                <h4>
-                You must find the word to make the man happy.
-                    Can you handle the thrill?
-                </h4>
-                <br />
-                <Button
-                  color="danger"
-                  size="lg"
-                  target="_blank"
-                  onClick={this.scrollToMyRef}
-                >
-                  <i className="fas fa-play" />Start
-                </Button>
-              </GridItem>
-            </GridContainer>
-          </div>
-        </Parallax>
-        <div  ref={this.myRef} className={classNames(classes.main, classes.mainRaised)}>
-          <div className={classes.container}>
-                <Hangman/>
-          </div>
-        </div>
-        <Footer />
-      </div>
-    );
+	  const {classes, ...rest} = this.props;
+	  return (
+		  <div>
+			  <Header
+				  color="transparent"
+				  routes={dashboardRoutes}
+				  brand="Learn With Games"
+				  rightLinks={<HeaderLinks/>}
+				  fixed
+				  changeColorOnScroll={{
+					  height: 400,
+					  color: "white"
+				  }}
+				  {...rest}
+			  />
+			  <Parallax filter image={require("assets/img/landing-bg.jpg")}>
+				  <div className={classes.container}>
+					  <GridContainer>
+						  <GridItem xs={8} sm={8} md={6}>
+							  <h1 className={classes.title}>Select Game To Start Learning</h1>
+							  <h4>
+								Select game from list above to start learning
+							  </h4>
+							  <br/>
+						  </GridItem>
+					  </GridContainer>
+				  </div>
+			  </Parallax>
+			  <div ref={this.myRef} className={classNames(classes.main, classes.mainRaised)}>
+					  <GridContainer>
+
+					  {
+						  Games.map((game)=><GameCard path={game.path} title={game.name} image={game.image} description={game.description}/>)
+					  }
+					  </GridContainer>
+			  </div>
+			  <Footer/>
+		  </div>
+	  );
   }
+
 }
 
 export default withStyles(landingPageStyle)(LandingPage);
