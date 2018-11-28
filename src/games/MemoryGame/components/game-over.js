@@ -12,6 +12,7 @@ class GameOver extends Component{
 
         </div>
         <p>
+			<a style = {{cursor:'pointer'}} onClick={this.props.resetGame}>Try Again</a>
         </p>
       </div>
     )

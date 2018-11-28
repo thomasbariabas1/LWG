@@ -10,6 +10,7 @@ import GameOver from '../components/game-over'
 import Victory from '../components/victory'
 import './play.css'
 import GameWrapperHoc from "../../../lib/HoCs/GameWrapperHoc";
+import Button from "../../../components/CustomButtons/Button";
 
 const NOOP = function () {}
 const REVEAL_PERIOD = 850 // ms
@@ -27,6 +28,7 @@ class Play  extends Component{
   componentWillMount () {
 		this.setState({
 			cardsList: this.generateGame(),
+			gameStarted:false,
 			gameOver: false,
 			victory: false,
 			match: {}
@@ -37,12 +39,38 @@ class Play  extends Component{
   componentDidMount () {
     this.enableCardClick()
   }
+	startGame = () => {
+  	this.setState({gameStarted:true})
+	}
+	resetGame = () =>{
+		this.setState({gameStarted:false, gameOver:false, victory:false, match:{}, cardsList: this.generateGame()})
+		this.isCardClickDisabled = false
+		clearTimeout(this.timeout)
 
+	}
   render () {
+  	if(!this.state.gameStarted){
+  		return (
+			<div className='play-view'>
+				<div className='cards' style={{display:'flex',margin:'0 auto',minHeight:'400px',
+					maxWidth:'2000px',justifyContent:'center',alignItems:'center'}}>
+				<Button
+					color="success"
+					size="lg"
+					target="_blank"
+					onClick={this.startGame}
+					style={{height:'100px'}}
+				>
+					<i className="fas fa-play"/>Start Game
+				</Button>
+				</div>
+			</div>
+		)
+	}
     return (
       <div className='play-view'>
-        {this.state.gameOver && <Lightbox><GameOver /></Lightbox>}
-        {this.state.victory && <Lightbox><Victory /></Lightbox>}
+        {this.state.gameOver && <Lightbox><GameOver  resetGame={this.resetGame}/></Lightbox>}
+        {this.state.victory && <Lightbox><Victory  resetGame={this.resetGame}/></Lightbox>}
         <div className='control'>
           <Spinner />
           <span className='timer'>

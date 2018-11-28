@@ -69,7 +69,7 @@ const GameWrapperHoc = () => {
 											target="_blank"
 											onClick={this.scrollToMyRef}
 										>
-											<i className="fas fa-play"/>Start
+											<i className="fas fa-play"/>Go To Game
 										</Button>
 									</GridItem>
 								</GridContainer>
