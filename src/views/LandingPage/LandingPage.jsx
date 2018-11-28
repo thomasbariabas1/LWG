@@ -44,13 +44,10 @@ class LandingPage extends React.Component {
 				  {...rest}
 			  />
 			  <Parallax filter image={require("assets/img/background.png")}>
-				  <div className={classes.container}>
+				  <div className={classes.container} style={{paddingTop:'170px'}}>
 					  <GridContainer>
-						  <GridItem xs={8} sm={8} md={6}>
+						  <GridItem xs={6} sm={6} md={6}>
 							  <h1 className={classes.title}>Select Game To Start Learning</h1>
-							  <h4>
-								Select game from list above to start learning
-							  </h4>
 							  <br/>
 						  </GridItem>
 					  </GridContainer>

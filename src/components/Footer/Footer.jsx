@@ -26,37 +26,37 @@ function Footer({ ...props }) {
       <div className={classes.container}>
         <div className={classes.left}>
           <List className={classes.list}>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.google.com/"
-                className={classes.block}
-                target="_blank"
-              >
-                US
-              </a>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.vivacom.com/"
-                className={classes.block}
-                target="_blank"
-              >
-                About us
-              </a>
-            </ListItem>
+            {/*<ListItem className={classes.inlineBlock}>*/}
+              {/*<a*/}
+                {/*href="https://www.google.com/"*/}
+                {/*className={classes.block}*/}
+                {/*target="_blank"*/}
+              {/*>*/}
+                {/*US*/}
+              {/*</a>*/}
+            {/*</ListItem>*/}
+            {/*<ListItem className={classes.inlineBlock}>*/}
+              {/*<a*/}
+                {/*href="https://www.vivacom.com/"*/}
+                {/*className={classes.block}*/}
+                {/*target="_blank"*/}
+              {/*>*/}
+                {/*About us*/}
+              {/*</a>*/}
+            {/*</ListItem>*/}
           </List>
         </div>
         <div className={classes.right}>
-          &copy; {1900 + new Date().getYear()} , made with{" "}
-          <Favorite className={classes.icon} /> by{" "}
-          <a
-            href="https://www.google.com"
-            className={aClasses}
-            target="_blank"
-          >
-          US
-          </a>{" "}
-          for a better web.
+          {/*&copy; {1900 + new Date().getYear()} , made with{" "}*/}
+          {/*<Favorite className={classes.icon} /> by{" "}*/}
+          {/*<a*/}
+            {/*href="https://www.google.com"*/}
+            {/*className={aClasses}*/}
+            {/*target="_blank"*/}
+          {/*>*/}
+          {/*US*/}
+          {/*</a>{" "}*/}
+          {/*for a better web.*/}
         </div>
       </div>
     </footer>

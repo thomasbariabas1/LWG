@@ -16,7 +16,7 @@ import Button from "components/CustomButtons/Button.jsx";
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 
-import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.jsx";
+import landingPageStyle from "../../assets/jss/material-kit-react/views/landingPage.jsx";
 
 
 let dashboardRoutes =[]
@@ -54,7 +54,7 @@ const GameWrapperHoc = () => {
 							}}
 							{...rest}
 						/>
-						<Parallax filter image={require("assets/img/landing-bg.jpg")}>
+						<Parallax filter image={require("assets/img/games/backgroundGames2.png")}>
 							<div className={classes.container}>
 								<GridContainer>
 									<GridItem xs={12} sm={12} md={6}>
@@ -76,7 +76,7 @@ const GameWrapperHoc = () => {
 							</div>
 						</Parallax>
 						<div ref={this.myRef} className={classNames(classes.main, classes.mainRaised)}>
-							<div className={classes.container}>
+							<div className={classes.gameContainer}>
 								{<Child {...this.props}/>}
 							</div>
 						</div>
