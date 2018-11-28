@@ -39,7 +39,6 @@ const GameWrapperHoc = () => {
 
 			render() {
 				const {classes,name,description, ...rest} = this.props;
-				console.log('props',this.props)
 				return (
 					<div>
 						<Header
@@ -76,7 +75,7 @@ const GameWrapperHoc = () => {
 							</div>
 						</Parallax>
 						<div ref={this.myRef} className={classNames(classes.main, classes.mainRaised)}>
-							<div className={classes.gameContainer}>
+							<div className={classes.gameContainer} style={{overflow:'auto'}}>
 								{<Child {...this.props}/>}
 							</div>
 						</div>
