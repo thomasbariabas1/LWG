@@ -38,12 +38,12 @@ class LandingPage extends React.Component {
 				  rightLinks={<HeaderLinks/>}
 				  fixed
 				  changeColorOnScroll={{
-					  height: 400,
+					  height: 100,
 					  color: "white"
 				  }}
 				  {...rest}
 			  />
-			  <Parallax filter image={require("assets/img/landing-bg.jpg")}>
+			  <Parallax filter image={require("assets/img/background.png")}>
 				  <div className={classes.container}>
 					  <GridContainer>
 						  <GridItem xs={8} sm={8} md={6}>

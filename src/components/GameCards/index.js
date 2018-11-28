@@ -27,6 +27,7 @@ class LandingPage extends React.Component {
 	}
 	render() {
 		const {classes, title, description, path, image} = this.props
+
 		return (
 						<GridItem xs={3} sm={3}  lg={3} className={classes.marginAuto}>
 							<Card>

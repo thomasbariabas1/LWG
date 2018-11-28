@@ -15,7 +15,11 @@ class GameWrapper extends Component {
 		return (
 			<Switch>
 				{gameRoutes.map((prop, key) => {
-					return <Route path={prop.path} key={key} component={prop.component}/>;
+					return <Route path={prop.path} exact={true} key={key} render={(props)=>{
+						const Component = prop.component
+
+						return <Component {...{...props,...prop}}/>
+					}}/>;
 				})}
 			</Switch>
 		);

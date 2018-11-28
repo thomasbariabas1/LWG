@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bfccfa43-cfd1-4c23-889d-6b751eb59046" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/hotswap_agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/games/hangman.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/games/sentence.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GameCards/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/games/GameWrapper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/games/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/HoCs/GameWrapperHoc.js" afterDir="false" />
+    <list default="true" id="bfccfa43-cfd1-4c23-889d-6b751eb59046" name="Default" comment="Landing Page.">
+      <change afterPath="$PROJECT_DIR$/src/assets/img/games/memoryGame.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/games/FillTheSentence/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/games/MemoryGame/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/games/Scramble/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/componentsSections/carouselStyle.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/componentsSections/carouselStyle.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/landingPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/landingPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/games/hangman/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/games/hangman/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Components/Sections/SectionCarousel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Components/Sections/SectionCarousel.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-kit-react/components/parallaxStyle.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/components/parallaxStyle.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GameCards/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GameCards/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderLinks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HeaderLinks.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Parallax/Parallax.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Parallax/Parallax.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/games/GameWrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/games/GameWrapper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/games/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/games/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/HoCs/GameWrapperHoc.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/HoCs/GameWrapperHoc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/LandingPage/LandingPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/LandingPage/LandingPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/LoginPage/LoginPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/LoginPage/LoginPage.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,41 +28,49 @@
     <session id="-1472790380">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="css" value="1" />
           <entry key="jpg" value="1" />
-          <entry key="js" value="11" />
-          <entry key="jsx" value="19" />
+          <entry key="js" value="24" />
+          <entry key="jsx" value="31" />
+          <entry key="png" value="9" />
           <entry key="ts" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="1" />
-          <entry key="JSX Harmony" value="19" />
-          <entry key="JavaScript" value="11" />
+          <entry key="CSS" value="1" />
+          <entry key="Image" value="10" />
+          <entry key="JSX Harmony" value="31" />
+          <entry key="JavaScript" value="24" />
           <entry key="TypeScript" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="1114" />
-          <entry key="jsx" value="511" />
+          <entry key="js" value="2115" />
+          <entry key="jsx" value="589" />
+          <entry key="txt" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSX Harmony" value="511" />
-          <entry key="JavaScript" value="1114" />
+          <entry key="JSX Harmony" value="589" />
+          <entry key="JavaScript" value="2115" />
+          <entry key="PLAIN_TEXT" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="ESLintLanguageService" value="1" />
+          <entry key="ESLintLanguageService" value="3" />
           <entry key="TypeScriptServerServiceImpl" value="1" />
         </counts>
       </usages-collector>
@@ -71,52 +79,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/LandingPage/LandingPage.jsx">
+        <entry file="file://$PROJECT_DIR$/src/games/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="65" selection-start-line="65" selection-end-line="65" />
+            <state relative-caret-position="387">
+              <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
               <folding>
-                <element signature="e#246#296#0" expanded="true" />
+                <element signature="e#0#31#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/jss/material-kit-react/views/landingPage.jsx">
+        <entry file="file://$PROJECT_DIR$/src/games/MemoryGame/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            <state relative-caret-position="272">
+              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/GameCards/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="30" column="54" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
-              <folding>
-                <element signature="e#233#295#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/games/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/games/hangman/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="230" column="20" selection-start-line="230" selection-start-column="20" selection-end-line="230" selection-end-column="20" />
+            <state relative-caret-position="1668">
+              <caret line="230" column="31" selection-start-line="230" selection-start-column="14" selection-end-line="230" selection-end-column="31" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -125,21 +115,62 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lib/HoCs/GameWrapperHoc.js">
+        <entry file="file://$PROJECT_DIR$/src/games/hangman/hangman.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/games/Scramble/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-124">
-              <caret line="50" column="50" lean-forward="true" selection-start-line="50" selection-start-column="50" selection-end-line="50" selection-end-column="50" />
+            <state relative-caret-position="340">
+              <caret line="20" column="32" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/index.jsx">
+        <entry file="file://$PROJECT_DIR$/src/games/FillTheSentence/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="289">
+              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
               <folding>
-                <element signature="e#0#57#0" expanded="true" />
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lib/HoCs/GameWrapperHoc.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-57">
+              <caret line="40" column="48" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
+              <folding>
+                <element signature="e#258#308#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/LandingPage/LandingPage.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-392">
+              <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/games/GameWrapper.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="20" column="63" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -157,6 +188,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>bg.jp</find>
+      <find>exact</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -166,25 +198,31 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.eslintignore" />
-        <option value="$PROJECT_DIR$/src/views/LoginPage/LoginPage.jsx" />
         <option value="$PROJECT_DIR$/src/lib/history/index.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/components/Footer/Footer.jsx" />
         <option value="$PROJECT_DIR$/src/games/hangman/App.css" />
-        <option value="$PROJECT_DIR$/src/components/Header/HeaderLinks.jsx" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/games/indes.js" />
         <option value="$PROJECT_DIR$/src/views/Components/Sections/SectionCarousel.jsx" />
         <option value="$PROJECT_DIR$/src/routes/index.jsx" />
-        <option value="$PROJECT_DIR$/src/games/GameWrapper.js" />
         <option value="$PROJECT_DIR$/src/games/hangman/index.js" />
-        <option value="$PROJECT_DIR$/src/lib/HoCs/GameWrapperHoc.js" />
         <option value="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/componentsSections/carouselStyle.jsx" />
-        <option value="$PROJECT_DIR$/src/games/index.js" />
         <option value="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/landingPage.jsx" />
         <option value="$PROJECT_DIR$/src/assets/jss/material-kit-react.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Header/HeaderLinks.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Parallax/Parallax.jsx" />
+        <option value="$PROJECT_DIR$/src/assets/jss/material-kit-react/components/parallaxStyle.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Header/Header.jsx" />
         <option value="$PROJECT_DIR$/src/views/LandingPage/LandingPage.jsx" />
+        <option value="$PROJECT_DIR$/src/views/LoginPage/LoginPage.jsx" />
         <option value="$PROJECT_DIR$/src/components/GameCards/index.js" />
+        <option value="$PROJECT_DIR$/src/games/GameWrapper.js" />
+        <option value="$PROJECT_DIR$/src/lib/HoCs/GameWrapperHoc.js" />
+        <option value="$PROJECT_DIR$/src/games/Scramble/index.js" />
+        <option value="$PROJECT_DIR$/src/games/FillTheSentence/index.js" />
+        <option value="$PROJECT_DIR$/src/games/index.js" />
+        <option value="$PROJECT_DIR$/src/games/MemoryGame/index.js" />
       </list>
     </option>
   </component>
@@ -214,8 +252,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,22 +268,27 @@
               <item name="LWG" type="b2602c69:ProjectViewProjectNode" />
               <item name="LWG" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LWG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LWG" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LWG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LWG" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
               <item name="games" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LWG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LWG" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="games" type="462c0819:PsiDirectoryNode" />
+              <item name="hangman" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LWG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LWG" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LWG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LWG" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="HoCs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LWG" type="b2602c69:ProjectViewProjectNode" />
@@ -281,16 +322,25 @@
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="LandingPage" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LWG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LWG" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginPage" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543314786304" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543355817236" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -302,15 +352,15 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2018.2.6\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Thomas\workplace\LWG\src\static\image\cards" />
+      <recent name="C:\Users\thoriampas\Downloads\material-kit-react-v1.3.0\src\games\hangman" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Thomas\workplace\LWG\src\assets\img\games" />
       <recent name="C:\Users\Thomas\workplace\LWG\src\assets\img" />
       <recent name="C:\Users\Thomas\workplace\LWG\src\static\image\cards" />
       <recent name="C:\Users\Thomas\workplace\LWG\src\static\image" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Thomas\workplace\LWG\src\static\image\cards" />
-      <recent name="C:\Users\thoriampas\Downloads\material-kit-react-v1.3.0\src\games\hangman" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -478,17 +528,28 @@
       <option name="presentableId" value="Default" />
       <updated>1543264634615</updated>
       <workItem from="1543264635794" duration="3011000" />
-      <workItem from="1543307375269" duration="7327000" />
+      <workItem from="1543307375269" duration="11571000" />
+      <workItem from="1543334929298" duration="837000" />
+      <workItem from="1543352038013" duration="3176000" />
     </task>
+    <task id="LOCAL-00001" summary="Landing Page.">
+      <created>1543314881816</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1543314881816</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10338000" />
+    <option name="totallyTimeSpent" value="18595000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22441365" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22995462" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -496,8 +557,6 @@
       <window_info id="Designer" order="5" />
       <window_info id="UI Designer" order="6" />
       <window_info id="Capture Tool" order="7" />
-      <window_info anchor="bottom" id="TypeScript" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -505,9 +564,11 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3288889" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3282313" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="TypeScript" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -526,49 +587,13 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Landing Page." />
+    <option name="LAST_COMMIT_MESSAGE" value="Landing Page." />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.eslintignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.eslintrc.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/history/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="7" column="46" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/LoginPage/LoginPage.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/history/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/games/hangman/registerServiceWorker.js" />
-    <entry file="file://$PROJECT_DIR$/src/games/hangman/index.css" />
     <entry file="file://$PROJECT_DIR$/src/games/hangman/App.test.js" />
     <entry file="file://$PROJECT_DIR$/src/games/hangman/App.css" />
-    <entry file="file://$PROJECT_DIR$/src/components/Header/HeaderLinks.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/games/hangman/fetchMovies.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -589,20 +614,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header/Header.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="65" column="6" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -631,9 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="41" column="40" lean-forward="true" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="40" />
-          <folding>
-            <element signature="e#305#367#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -654,25 +666,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/games/GameWrapper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/img/games/hangman.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/HoCs/GameWrapperHoc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-124">
-          <caret line="50" column="50" lean-forward="true" selection-start-line="50" selection-start-column="50" selection-end-line="50" selection-end-column="50" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
@@ -680,16 +675,6 @@
           <caret line="7" column="17" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="17" />
           <folding>
             <element signature="e#0#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/games/hangman/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="230" column="20" selection-start-line="230" selection-start-column="20" selection-end-line="230" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -708,13 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/games/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/jss/material-kit-react.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
@@ -729,22 +707,197 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/LandingPage/LandingPage.jsx">
+    <entry file="file://$PROJECT_DIR$/src/components/Header/HeaderLinks.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
-          <folding>
-            <element signature="e#246#296#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="425">
+          <caret line="100" column="20" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="100" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/jss/material-kit-react/components/parallaxStyle.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="8" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="27" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Parallax/Parallax.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="998">
+          <caret line="77" column="29" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header/Header.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="76" column="74" selection-start-line="76" selection-start-column="74" selection-end-line="76" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/games/hangman/img/1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/games/hangman/img/2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/games/hangman/img/3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/games/hangman/img/5.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/games/hangman/img/4.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/games/hangman/img/6.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/games/hangman/img/7.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/games/hangman/img/arrow.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/games/hangman/img/win.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-router/es/Route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="55" column="13" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/GameCards/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="30" column="54" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
+        <state relative-caret-position="26">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="e#233#295#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/games/hangman/components/Diagram.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-310">
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/games/hangman/components/Diagram.spec.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/games/hangman/components/Digits.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/games/hangman/components/Title.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-561">
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/games/FillTheSentence/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/games/Scramble/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/LoginPage/LoginPage.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-340">
+          <caret line="76" column="50" selection-start-line="76" selection-start-column="50" selection-end-line="76" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/games/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/games/GameWrapper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="20" column="63" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/HoCs/GameWrapperHoc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="40" column="48" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
+          <folding>
+            <element signature="e#258#308#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/LandingPage/LandingPage.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-392">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/games/MemoryGame/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/games/hangman/hangman.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/games/hangman/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1668">
+          <caret line="230" column="31" selection-start-line="230" selection-start-column="14" selection-end-line="230" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>

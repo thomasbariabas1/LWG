@@ -38,8 +38,8 @@ const GameWrapperHoc = () => {
 			}
 
 			render() {
-				const {classes, ...rest} = this.props;
-				console.log(Child)
+				const {classes,name,description, ...rest} = this.props;
+				console.log('props',this.props)
 				return (
 					<div>
 						<Header
@@ -49,7 +49,7 @@ const GameWrapperHoc = () => {
 							rightLinks={<HeaderLinks/>}
 							fixed
 							changeColorOnScroll={{
-								height: 400,
+								height: 100,
 								color: "white"
 							}}
 							{...rest}
@@ -58,10 +58,9 @@ const GameWrapperHoc = () => {
 							<div className={classes.container}>
 								<GridContainer>
 									<GridItem xs={12} sm={12} md={6}>
-										<h1 className={classes.title}>Hangman</h1>
+										<h1 className={classes.title}>{name}</h1>
 										<h4>
-											You must find the word to make the man happy.
-											Can you handle the thrill?
+											{description}
 										</h4>
 										<br/>
 										<Button
