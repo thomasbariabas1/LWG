@@ -1,5 +1,5 @@
 import React from 'react';
-import winImage from '../img/win.png';
+import winImage from '../img/win.gif';
 import loseImage from '../img/7.png';
 import styled from 'styled-components';
 
@@ -9,21 +9,26 @@ const Text = styled.p`
   max-width: 200px;
   margin: 0;
   padding-right: 40px;
-  &:after {
-    content: '';
-    width: ${props => (props.isLose ? '180px' : '100px')};
-    height: ${props => (props.isLose ? '180px' : '158px')};
-    background-repeat: no-repeat;
-    display: inline-block;
-    background-size: 100%;
-    margin: 10px;
-    position: relative;
-    left: 100px;
-    background-image: ${props =>
-      props.isLose ? `url(${loseImage})` : `url(${winImage})`};
-  }
+ 
 `;
 
-const GameOver = props => <Text {...props}>{props.text}</Text>;
+
+const GameOver = props =>(
+	<div style={{display:'flex',flexDirection:'column'}}>
+		<Text {...props}>{props.text}</Text>
+		{!props.newGame&&<div style={{
+			content: '',
+			width:`${props.isLose ? '220px' : '300px'}`,
+			height: `${props.isLose ? '220px' : '300px'}`,
+			backgroundRepeat: 'no-repeat',
+			display: 'inline-block',
+			backgroundSize: '100%',
+			margin: '10px',
+			position: 'relative',
+			left: '60px',
+			backgroundImage:props.isLose ? `url(${loseImage})` : `url(${winImage})`,
+		}}/>}
+	</div>
+);
 
 export default GameOver;

@@ -33,7 +33,7 @@ const Block = styled.div`
 
 const letters = /^[a-z0-9]+$/i;
 const digits = document.getElementsByClassName('digit');
-const winText = `You did it! Super awesome!`;
+const winText = `You did it!`;
 const loseText = 'Seriously? That was an easy one.';
 
 class App extends Component {

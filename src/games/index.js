@@ -19,14 +19,14 @@ export default [
 			image:require("assets/img/games/scramble.jpg"),
 			component: Scramble
 		},
-		{
-			path: "/games/CompleteTheSentence",
-			name: "Complete The Sentence",
-			exact:true,
-			description:'Something is missing. Guess what is missing!',
-			image:require("assets/img/games/sentence.jpg"),
-			component: FillTheSentence
-		},
+		// {
+		// 	path: "/games/CompleteTheSentence",
+		// 	name: "Complete The Sentence",
+		// 	exact:true,
+		// 	description:'Something is missing. Guess what is missing!',
+		// 	image:require("assets/img/games/sentence.jpg"),
+		// 	component: FillTheSentence
+		// },
 	{
 		path: "/games/MemoryGame",
 		name: "Memory Game",

@@ -11,13 +11,7 @@ class BoardSquare extends Component {
 			'board-square': true,
 			'dragged-over': this.props.isOver
 		});
-		if(this.props.y===0&&this.props.x<this.props.wordLength){
-			classes = classNames({
-				'board-square': true,
-				'dragged-over': this.props.isOver,
-				'solution':true
-			});
-		}
+
 		return <div className={classes}></div>
 	}
 	render() {
