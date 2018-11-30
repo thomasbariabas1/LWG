@@ -18,6 +18,7 @@ import './scramble.css';
 const BOARD_WIDTH   = 11;
 const BOARD_HEIGHT  = 7;
 const NUM_SQUARES   = BOARD_WIDTH * BOARD_HEIGHT;
+
 const gen4Numbers = (number) => {
 	let numbers = [];
 	while (numbers.length < number) {
@@ -28,18 +29,19 @@ const gen4Numbers = (number) => {
 	}
 	return numbers;
 }
-const arrayOfX = gen4Numbers(10)
-const arrayOfY = gen4Numbers(3)
+
 
 
 class Scrabble extends Component {
 	constructor(props) {
 		super(props);
+		const arrayOfX = gen4Numbers(10)
+		const arrayOfY = gen4Numbers(3)
 		this.state = { tiles:tiles.map((tile,i)=>{
 			tile.x = arrayOfX[i]
 			tile.y = arrayOfY[Math.random()*2]
 			return tile
-		}),won:false, wonTiles:[] }
+		}),won:false, wonTiles:[], wonPhrase:tiles.map((tile)=>tile.letter).join('') }
 
 		this.updateDroppedTilePosition = this.updateDroppedTilePosition.bind(this);
 		this.resetTiles = this.resetTiles.bind(this);
@@ -80,7 +82,7 @@ class Scrabble extends Component {
 		let wonTiles =  stateWonTiles
 		let word = wonTiles.filter(tile=>tile.y===0).sort((a,b)=>a.x-b.x).map(tile=>tile.letter).join('')
 
-		if(word === 'FLIPMOVE'){
+		if(word === this.state.wonPhrase){
 			this.setState({ tiles: stateTiles,won:true,wonTiles });
 
 		}else{
@@ -91,7 +93,13 @@ class Scrabble extends Component {
 	}
 
 	resetTiles() {
-		this.setState({ tiles, won:false, wonTiles:[]});
+		const arrayOfX = gen4Numbers(10)
+		const arrayOfY = gen4Numbers(3)
+		this.setState({ tiles:tiles.map((tile,i)=>{
+				tile.x = arrayOfX[i]
+				tile.y = arrayOfY[Math.random()*2]
+				return tile
+			}), won:false, wonTiles:[]});
 	}
 
 	renderTiles = (wonBoard) => {
@@ -154,11 +162,18 @@ class Scrabble extends Component {
 					width:`${(this.state.tiles.length+this.state.wonTiles.length)*58}px`,
 					padding:'8px'
 				}}>
-				<div className="board">
+				<div style={{
+					position: 'relative',
+					width: `${(this.state.tiles.length+this.state.wonTiles.length)*60}px`,
+					height: '168px',
+					display: 'flex',
+					flexWrap: 'wrap',
+					userSelect: 'none'
+				}}>
 					<FlipMove duration={200} staggerDelayBy={150} disableAllAnimations={true}>
 						{ this.renderTiles(true) }
 					</FlipMove>
-					{ this.renderBoardSquares(8, 1,true) }
+					{ this.renderBoardSquares(this.state.tiles.length+this.state.wonTiles.length, 1,true) }
 				</div>
 				</div>
 				<div className="board-border">
